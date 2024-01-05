@@ -4,9 +4,9 @@ a simple code to transform a programming project into a pdf, the main objective 
 
 ## HOW TO USE ##
 
-# tsc #
+### tsc ###
 
-# npm install #
+### npm install ###
 
-# node .\index.js insert/your/directory/here #
+### node .\index.js insert/your/directory/here ###
 
