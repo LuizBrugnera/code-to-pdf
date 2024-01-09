@@ -4,12 +4,19 @@ import PDFDocument from "pdfkit";
 
 class Generate {
   private static excludedFolders = [
-    "node_modules",
     ".git",
     ".vscode",
-    "dist",
-    "build",
     "coverage",
+    "bin",
+    "out",
+    "__pycache__",
+    "node_modules",
+    ".idea",
+    "venv",
+    "env",
+    ".vs",
+    "build",
+    "dist",
   ];
   private static excludedFiles = [
     ".gitignore",
@@ -17,6 +24,9 @@ class Generate {
     "tsconfig.json",
     "README.md",
     "output.pdf",
+    "*.iml",
+    "*.pyc",
+    "yarn.lock",
     "*.png",
     "*.jpg",
     "*.jpeg",
